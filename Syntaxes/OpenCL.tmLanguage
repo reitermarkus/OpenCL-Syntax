@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>opencl</string>
+		<string>cl</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?x)
@@ -408,7 +409,6 @@
 				</dict>
 			</array>
 		</dict>
-
 		<dict>
 			<key>match</key>
 			<string>\b(get_work_dim|get_global_size|get_global_id|get_local_size|get_local_id|get_num_groups|get_group_id|get_global_offset)\b</string>
@@ -535,7 +535,6 @@
 					<key>include</key>
 					<string>#access</string>
 				</dict>
-	
 				<dict>
 					<key>captures</key>
 					<dict>
